@@ -7,17 +7,18 @@
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: purple;
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
-  padding: 30vh;
+  /* min-height: 100vh; */
+  padding-left: 25vw;
+  padding-top: 10vh;
 }
 .right{
   height:60vh;
-    width: 40vw;
+    width: 49vw;
     float: right;
 }
 .left{
   height: 60vh;
-    width: 25vw;
+    width: 20vw;
     float: left;
 }
       button {
@@ -65,8 +66,7 @@
 } 
     </script>
   </head>
-  </br>
-  </br>
+ 
 
   <body >
     <u>
@@ -130,14 +130,12 @@
       </br>
        </div> 
     
-    <button type="submit" class="btn" name="reg_child" align="center">Submit</button>
-    </div>
-      
-      
-    </form>
     
+    </div>
+    <t>
+    <button type="submit" class="btn" name="reg_child" align="center" padding-left="34px"> Submit</button>
+    </form>
+    <a href="main.php"><button align=center>Back To Home Page</button></a>
   </body>
-  <body>
-  <a href="main.php"><button align=center>Back To Home Page</button></a>
-</body>
+  
   </html>
