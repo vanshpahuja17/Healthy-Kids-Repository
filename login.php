@@ -3,6 +3,9 @@
     <title>PHP login system</title>  
     <!-- // insert style.css file inside index.html   -->
     <!-- <link rel = "stylesheet" type = "text/css" href = "style.css">    -->
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 
 
@@ -12,11 +15,11 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
-.vansh{
+/* .vansh{
     padding-top: 4vh;
     height: 12vh;
-}
-                    button{
+} */
+                    /* button{
             
             flex-direction: column;
             align-content: center;
@@ -42,26 +45,83 @@ body {
     button:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgb(52, 9, 207);
-    }
+    } */
+    .login-box {
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #191970;
+}
+
+.login-box h1 {
+	float: left;
+	font-size: 40px;
+	border-bottom: 4px solid #191970;
+	margin-bottom: 50px;
+	padding: 13px;
+}
+
+.textbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #191970;
+}
+
+.fa {
+	width: px;
+	float: left;
+	text-align: center;
+}
+
+.textbox input {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+	float: left;
+	margin: 0 10px;
+}
+
+.button {
+	width: 100%;
+	padding: 8px;
+	color: #ffffff;
+	background: none #191970;
+	border: none;
+	border-radius: 6px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 12px 0;
+}
+
         </style>
 </head>  
-<body style="padding-left: 650px;padding-right: 680px;padding-top: 162px;">  
-    <div id = "frm">  
-        <h1>Login</h1>  
-        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
-            <p>  
-                <label> Aadhar </label>  
-                <input type = "text" id ="aadhar" name  = "aadhar" />  
-            </p>  
-            <p>  
-                <label> Password </label>  
-                <input type = "password" id ="password" name  = "password" />  
-            </p>  
-            <p>     
-                <input  type =  "submit" id = "btn" value = "Login" />  
-            </p>  
-        </form>  
-    </div>  
+<body>  
+<form method="post" name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
+		<div class="login-box">
+			<h1>Login</h1>
+
+			<div class="textbox">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<input type="number" min="5" step="1" placeholder="Enter child's aadhar no."
+						name="aadhar" value="">
+			</div>
+
+			<div class="textbox">
+				<i class="fa fa-lock" aria-hidden="true"></i>
+				<input type="password" placeholder="Password"
+						name="password" value="">
+			</div>
+
+			<input class="button" type="submit"
+					name="login" value="Sign In">
+		</div>
+	</form>
     
     <script>  
             function validation()  

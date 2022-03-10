@@ -1,53 +1,103 @@
-<!DOCKTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title> Doctor's login</title>
-<style>
-  body {
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="login.css">
+	<title>Login Page</title>
+    <style>
+         body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: purple;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+  
 }
-    button{
-            display:flex;
-            flex-direction: column;
-            align-content: center;
-            border: 0;
-            line-height: 2.5;
-            padding: 0 20px;
-            font-size: 1rem;
-            text-align: center;
-            color: #fff;
-            text-shadow: 1px 1px 1px #000;
-            border-radius: 10px;
-            background-color: rgb(89, 73, 180);
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-        }  
-        button:hover {
-    background-color: rgba(59, 0, 220, 0.698);
-    }
-    button:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgb(52, 9, 207);
-    }  
-</style>
+
+.login-box {
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #191970;
+    font-size: 23px;
+}   
+
+.login-box h1 {
+	float: left;
+	font-size: 40px;
+	border-bottom: 4px solid #191970;
+	margin-bottom: 50px;
+	padding: 13px;
+}
+
+.textbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #191970;
+}
+
+.fa {
+	width: px;
+	float: left;
+	text-align: center;
+}
+
+.textbox input {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+	float: left;
+	margin: 0 10px;
+}
+
+.button {
+	width: 100%;
+	padding: 8px;
+	color: #ffffff;
+	background: none #191970;
+	border: none;
+	border-radius: 6px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 12px 0;
+}
+
+    </style>
 </head>
 <body  border=7px solid indigo>
 <form method="post" onsubmit = "return validation()" action="doctorlogin.php">
-    <h1 align="center"><br><br> Welcome to Doctor's section</h1>
+<div class="login-box">
+    <h2 align="center"> Welcome to Doctor's section</h2>
     <!-- <img  src="https://media.istockphoto.com/vectors/medical-team-vector-id1214423422?k=20&m=1214423422&s=612x612&w=0&h=WmzB4WiNJ_II5I6uQIGGaYMh45gP8qikNnIyMpqPPAA="  > -->
-    <div class="doctor" style="padding-left: 560px;padding-right: 616px;border-top-style: solid;padding-top: 77px;border-top-width: 0px;">
+   
+
+<div class="textbox">
     <h3>LOGIN</h3>
-        Username <input type="text" id="aadhar" name="aadhar" required><br><br>
-        Password <input type="password" id="password" name="password" required><br><br>
+</div>
+    <div class="textbox">
+        
+    <i class="fa fa-user" aria-hidden="true"></i>
+         <input type="text" id="aadhar" placeholder="Username" name="aadhar" required>
+</div>
+<div class="textbox">
+<i class="fa fa-lock" aria-hidden="true"></i>
+         <input type="password" id="password" placeholder="Password" name="password" required>
+</div>
 <!-- <input type="submit" value="submit" >  -->
-<input  type =  "submit" id = "btn" value = "Login" />
+<!-- <input  type =  "submit" id = "btn" value = "Login" /> -->
+<input class="button" type="submit"
+					name="reg_user" value="Login">
+</div>
 </form>
 </div>
 <script>  

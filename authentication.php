@@ -25,7 +25,7 @@
 <?php
 session_start();
 if(isset($_SESSION['aadhar'])){
-    echo "<h2 align=center><br>Welcome </h2><br/><h2 align=center> <a href='parentinfo.php'>Click Enter</a></h2>";
+    echo "<h2 align=center><br>Welcome </h2><br/><h2 align=center> <a href='parentinfo.php'>click here</a></h2>";
     }
     else
     {
