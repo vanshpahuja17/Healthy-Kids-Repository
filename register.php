@@ -111,7 +111,7 @@ body {
   	<h2><span>Register</h2>
   
 </div>
-  <form method="post" action="index.php">
+  <form method="post" action="main.php">
   	
     <!-- <div class="textbox">
     <i class="fa fa-user" aria-hidden="true"></i>

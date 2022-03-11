@@ -135,7 +135,7 @@
     <t>
     <button type="submit" class="btn" name="reg_child" align="center" padding-left="34px"> Submit</button>
     </form>
-    <a href="main.php"><button align=center>Back To Home Page</button></a>
+    <a href="index.php"><button align=center>Back To Home Page</button></a>
   </body>
   
   </html>

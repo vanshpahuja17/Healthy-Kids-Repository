@@ -39,6 +39,6 @@ $result = mysqli_query($connect, $sql);
 
 </body>
 <body>
-  <a href="main.php"><button align=center>Back To Home Page</button></a>
+  <a href="index.php"><button align=center>Back To Home Page</button></a>
 </body>
 </html>
