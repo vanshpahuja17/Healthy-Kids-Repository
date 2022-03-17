@@ -25,22 +25,8 @@
         }     
 
 ?>  
-<<<<<<< HEAD
 
 
-=======
-<!-- .$_SESSION['aadhar']. -->
-<?php
-session_start();
-if(isset($_SESSION['aadhar'])){
-    echo "<h2 align=center><br>Welcome </h2><br/><h2 align=center> <a href='parentinfo.php'>click here</a></h2>";
-    }
-    else
-    {
-    header('Location:login.php');
-}
-?>
->>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
 <!DOCTYPE html>
 <html lang="en">
 <head>
