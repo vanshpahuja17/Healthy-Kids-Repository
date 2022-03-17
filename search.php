@@ -18,7 +18,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "<h2 align=center><br><br>Search Successful <br/> <a href='doctorproject1.php'><br><br>Click Enter</a></h2>";
+    echo "<h2 align=center><br><br>Search Successful!!<br/> <a href='doctorproject1.php'><br><br>Click here to access child details</a></h2>";
     // echo " - Name: " . $row["aadhar"]. " " . $row["password"]. "<br>";
   }
 } else {
@@ -50,6 +50,6 @@ $conn->close();
       <!-- <form method="POST" action="childinfo.php"></form> -->
       <!-- <button type="button" align="center" onclick="window.location.href='searchinfo.php'">Child Information</button> -->
 
-      <!-- <a href="main.php"><button align=center>Back To Home Page</button></a> -->
+      <!-- <a href="index.php"><button align=center>Back To Home Page</button></a> -->
   </body>
 </html>

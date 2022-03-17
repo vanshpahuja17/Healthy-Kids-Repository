@@ -12,13 +12,13 @@
   padding-top: 10vh;
 }
 .right{
-  height:60vh;
-    width: 49vw;
+  height:65vh;
+    width: 40vw;
     float: right;
 }
 .left{
-  height: 60vh;
-    width: 20vw;
+  height: 65vh;
+    width: 30vw;
     float: left;
 }
       button {
@@ -98,7 +98,7 @@
       <!-- <input type="radio" name=gender" value="Male">Male -->
       <!-- <input type="radio" name="gender" value="Female">Female -->
       <!-- <input type="radio" name="gender" value="Trans-gender">Trans-gender -->
-      <input type="location" name="gender" required>
+      <input type="location" name="gender"  placeholder="Male/Female/Others" required>
       </br>
   </div>
        <div class="right">
@@ -133,9 +133,10 @@
     
     </div>
     <t>
+    
+    
     <button type="submit" class="btn" name="reg_child" align="center" padding-left="34px"> Submit</button>
     </form>
-    <a href="main.php"><button align=center>Back To Home Page</button></a>
   </body>
   
   </html>

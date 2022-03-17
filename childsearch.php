@@ -2,7 +2,7 @@
 
 if(isset($_POST['submit'])){
     $connect = mysqli_connect("localhost", "root", "", "registration");  
-$sql = "SELECT * FROM users1 INNER JOIN childinfo ON users1.users1_id = childinfo.users1_id";  
+$sql = "SELECT * FROM users1 INNER JOIN childinfo ON users1.users1_id = childinfo.users1_id"; 
 $result = mysqli_query($connect, $sql);  
 }
  ?>  
@@ -21,24 +21,23 @@ $result = mysqli_query($connect, $sql);
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
+
 </style>
 </head>
 <body style="padding-left: 500px;padding-right: 400px;">
     <form action="search.php" method="POST" >
-
-    <h1>Enter child aadhar number<h1>
+<form action="searchinfo.php" method="POST">
+    <h1>Enter child's aadhar number<h1>
     <input type="text" name="aadhar" id ="aadhar" align=center required><br>
     <input  type =  "submit" id = "btn" value = "submit" name="submit" required>
-    <a href="childinfo.php?aadhar=<?php echo $aadhar ?>"></a>
-
-</form>
     
+</form>
+</form>
+<a href="index.php"><button align=center>Back To Home Page</button></a>
 
 
 
 
 </body>
-<body>
-  <a href="main.php"><button align=center>Back To Home Page</button></a>
-</body>
+
 </html>

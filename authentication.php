@@ -1,7 +1,8 @@
 <?php      
+       
     include('connection.php');  
     $aadhar = $_POST['aadhar'];  
-    $password = $_POST['password'];  
+    $password = $_POST['password'];
       
         //to prevent from mysqli injection  
         $aadhar = stripcslashes($aadhar);  
@@ -12,26 +13,20 @@
         $sql = "SELECT * FROM `users1` WHERE aadhar = '$aadhar' and password = '$password'";  
         $result = mysqli_query($con, $sql);  
         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
-        $count = mysqli_num_rows($result);  
+        $count = mysqli_num_rows($result); 
           
         if($count == 1){  
-            echo "<h1><center><br><br><br><br> Login successful </center></h1>";  
+            echo "<h1><center><br><br><br><br>Login successful </center></h1>";  
+            echo "<h2 align=center><br>Welcome to Healthy Kids Repository </h2><br/><h2 align=center> <a href='parentinfo.php'>Click here to fill Child details</a></h2>";
+    
         }  
         else{  
-            echo "<h1> Login failed. Invalid aadhar or password.</h1>";  
+            echo "<h1> Login failed. Invalid username or password.</h1>";  
         }     
+
 ?>  
-<!-- .$_SESSION['aadhar']. -->
-<?php
-session_start();
-if(isset($_SESSION['aadhar'])){
-    echo "<h2 align=center><br>Welcome </h2><br/><h2 align=center> <a href='parentinfo.php'>Click Enter</a></h2>";
-    }
-    else
-    {
-    header('Location:login.php');
-}
-?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +37,7 @@ if(isset($_SESSION['aadhar'])){
     <style>
         
         body {
+
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: purple;
   font-family: "Poppins", sans-serif;

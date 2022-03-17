@@ -1,7 +1,8 @@
 <?php      
+       
     include('connection.php');  
     $aadhar = $_POST['aadhar'];  
-    $password = $_POST['password'];  
+    $password = $_POST['password'];
       
         //to prevent from mysqli injection  
         $aadhar = stripcslashes($aadhar);  
@@ -9,28 +10,23 @@
         $aadhar = mysqli_real_escape_string($con, $aadhar);  
         $password = mysqli_real_escape_string($con, $password);  
       
-        $sql = "SELECT * FROM `doc` WHERE aadhar = '$aadhar' and password = '$password'";  
+        $sql = "SELECT * FROM `Doc` WHERE aadhar = '$aadhar' and password = '$password'";  
         $result = mysqli_query($con, $sql);  
         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
-        $count = mysqli_num_rows($result);  
+        $count = mysqli_num_rows($result); 
           
         if($count == 1){  
-            echo "<h1><br><br><center> Login successful </center></h1>";  
+            echo "<h1><center><br><br><br><br>Login successful </center></h1>";  
+            echo "<h2 align=center><br>Welcome Doctor!!</h2><br/><h2 align=center> <a href='childsearch.php'>Click Here to search Child details</a></h2>";
+    
         }  
         else{  
-            header('Location:doctorlogin.php');  
+            echo "<h1> Login failed. Invalid username or password.</h1>";  
         }     
-?>  
-<?php
-session_start();
-if(isset($_SESSION['aadhar'])){
-    echo "<h2 align=center>Welcome Doctor <br/> <a href='childsearch.php'><br>Click Enter</a></h2>";
-    }
-else
-    {
-    header('Location:doctorlogin.php');}
 
-?>
+?>  
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,17 +35,15 @@ else
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
+        body {
 
-body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: purple;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
-body{
-  
-}
-</style>
+        </style>
 </head>
 <body>
     
