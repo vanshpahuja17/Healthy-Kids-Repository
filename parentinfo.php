@@ -137,10 +137,6 @@
     
     <button type="submit" class="btn" name="reg_child" align="center" padding-left="34px"> Submit</button>
     </form>
-<<<<<<< HEAD
-=======
-    <a href="index.php"><button align=center>Back To Home Page</button></a>
->>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
   </body>
   
   </html>

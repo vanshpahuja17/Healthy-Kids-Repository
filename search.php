@@ -18,11 +18,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-<<<<<<< HEAD
     echo "<h2 align=center><br><br>Search Successful!!<br/> <a href='doctorproject1.php'><br><br>Click here to access child details</a></h2>";
-=======
-    echo "<h2 align=center><br><br>Search Successful <br/> <a href='doctorproject1.php'><br><br>click here</a></h2>";
->>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
     // echo " - Name: " . $row["aadhar"]. " " . $row["password"]. "<br>";
   }
 } else {

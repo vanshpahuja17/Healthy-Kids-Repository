@@ -23,18 +23,6 @@
         else{  
             echo "<h1> Login failed. Invalid username or password.</h1>";  
         }     
-<<<<<<< HEAD:doctorlog.php
-=======
-?>  
-<?php
-session_start();
-if(isset($_SESSION['aadhar'])){
-    echo "<h2 align=center>Welcome Doctor <br/> <a href='childsearch.php'><br>click here</a></h2>";
-    }
-else
-    {
-    header('Location:doctorlogin.php');}
->>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1:doctorlogin.php
 
 ?>  
 
