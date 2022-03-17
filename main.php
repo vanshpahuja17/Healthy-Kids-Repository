@@ -46,7 +46,11 @@ if (isset($_POST['reg_user'])) {
   	$_SESSION['aadhar'] = $aadhar;
   	// $_SESSION['success'] = "You are now logged in";
     echo "successfully registered";
+<<<<<<< HEAD
   	header('location: login.php');
+=======
+  	header('location: index.php');
+>>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
   }
 }
 

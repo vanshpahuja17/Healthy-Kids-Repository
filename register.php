@@ -112,7 +112,11 @@ body {
   
 </div>
   <form method="post" action="main.php">
+<<<<<<< HEAD
   <form onsubmit ="return verifyPassword()">  
+=======
+  	
+>>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
     <!-- <div class="textbox">
     <i class="fa fa-user" aria-hidden="true"></i>
   	  
@@ -121,7 +125,11 @@ body {
       <div> -->
       <div class="textbox">
 				<i class="fa fa-user" aria-hidden="true"></i>
+<<<<<<< HEAD
 				<input type="number" min="99999999999" max="999999999999" placeholder="Enter child's aadhar no."
+=======
+				<input type="number" min="5" step="1" placeholder="Enter child's aadhar no."
+>>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
 						name="aadhar" value="">
 			</div>
   
@@ -143,7 +151,10 @@ body {
   	<p>
   		Already a member? <a href="login.php">Sign in</a>
   	</p>
+<<<<<<< HEAD
     </form>
+=======
+>>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
   </form>
   <script>
     var input = document.getElementById("myInput");

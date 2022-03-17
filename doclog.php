@@ -75,7 +75,11 @@
     </style>
 </head>
 <body  border=7px solid indigo>
+<<<<<<< HEAD
 <form method="post" onsubmit = "return validation()" action="doctorlog.php">
+=======
+<form method="post" onsubmit = "return validation()" action="doctorlogin.php">
+>>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
 <div class="login-box">
     <h2 align="center"> Welcome to Doctor's section</h2>
     <!-- <img  src="https://media.istockphoto.com/vectors/medical-team-vector-id1214423422?k=20&m=1214423422&s=612x612&w=0&h=WmzB4WiNJ_II5I6uQIGGaYMh45gP8qikNnIyMpqPPAA="  > -->
@@ -95,7 +99,12 @@
 </div>
 <!-- <input type="submit" value="submit" >  -->
 <!-- <input  type =  "submit" id = "btn" value = "Login" /> -->
+<<<<<<< HEAD
 <input class="button" type="submit" name="reg_user" value="Login">
+=======
+<input class="button" type="submit"
+					name="reg_user" value="Login">
+>>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
 </div>
 </form>
 </div>

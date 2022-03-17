@@ -39,5 +39,11 @@ $result = mysqli_query($connect, $sql);
 
 
 </body>
+<<<<<<< HEAD
 
+=======
+<body>
+  <a href="index.php"><button align=center>Back To Home Page</button></a>
+</body>
+>>>>>>> 17c223a9a8a6df16a6748d9a1267b1406be85ce1
 </html>
