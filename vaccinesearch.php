@@ -25,13 +25,13 @@ $result = mysqli_query($connect, $sql);
 </style>
 </head>
 <body style="padding-left: 500px;padding-right: 400px;">
-    <form action="search.php" method="POST" >
-<form action="searchinfo.php" method="POST">
+    <form action="searchvacc.php" method="POST" >
+<!-- <form action="searchinfo.php" method="POST"> -->
     <h1>Enter child's aadhar number<h1>
     <input type="text" name="aadhar" id ="aadhar" align=center required><br>
     <input  type =  "submit" id = "btn" value = "submit" name="submit" required>
     
-</form>
+<!-- </form> -->
 </form>
 <!-- <a href="index.php"><button align=center>Back To Home Page</button></a> -->
 

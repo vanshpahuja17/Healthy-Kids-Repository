@@ -14,7 +14,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT name,dob,weight,height,place,gender,doh,dor,complication,tob,birthweight,breastfeeding,hrn FROM childinfo WHERE aadhar = '$aadhar' ";
+$sql = "SELECT aadhar,name,dob,weight,height,place,gender,doh,dor,complication,tob,birthweight,breastfeeding,hrn FROM childinfo WHERE aadhar = '$aadhar' ";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -26,6 +26,8 @@ if ($result->num_rows > 0) {
     echo"<b><h2 align=center>Child's Information</h2 ></b>";
     echo "<br>  ";
     echo "<h3 align=center>Child's Full Name: "  .$row["name"] ;
+    echo"<br><br>";
+    echo " Aadhar Number :" .$row["aadhar"] ;
     echo"<br><br>";
     echo " Date of birth :" .$row["dob"] ;
     echo"<br><br>";

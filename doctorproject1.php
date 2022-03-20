@@ -73,10 +73,10 @@
 <button type="button" align="center" onclick="window.location.href='you1.php'">Enter Vaccine Details</button>
 <br><br><br>
 <!-- <form method="POST" action="vaccineinfo.php"></form> -->
-    <button type="button" align="center" onclick="window.location.href='vaccineinfo.php'">Child Vaccine Details</button>
+    <button type="button" align="center" onclick="window.location.href='vaccinesearch.php'">Child Vaccine Details</button>
     <br><br><br>
     <!-- <form method="POST" action="childinfo.php"></form> -->
-    <button type="button" align="center" onclick="window.location.href='searchinfo.php'">Child Information</button>
+    <button type="button" align="center" onclick="window.location.href='childsearch.php'">Child Information</button>
 <br><br>
     <a href="index.php"><button align=center>Back To Home Page</button></a>
     <!-- <a href="#" class="float"> -->

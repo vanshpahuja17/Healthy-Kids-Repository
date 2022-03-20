@@ -17,7 +17,7 @@
           
         if($count == 1){  
             echo "<h1><center><br><br><br><br>Login successful </center></h1>";  
-            echo "<h2 align=center><br>Welcome Doctor!!</h2><br/><h2 align=center> <a href='childsearch.php'>Click Here to search Child details</a></h2>";
+            echo "<h2 align=center><br>Welcome Doctor!!</h2><br/><h2 align=center> <a href='doctorproject1.php'>Click Here to View/Update child records</a></h2>";
     
         }  
         else{  
