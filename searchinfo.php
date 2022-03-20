@@ -5,6 +5,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "registration";
+$aadhar = $_POST['aadhar'];  
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -13,7 +14,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT name,dob,weight,height,place,gender,doh,dor,complication,tob,birthweight,breastfeeding,hrn FROM childinfo ";
+$sql = "SELECT name,dob,weight,height,place,gender,doh,dor,complication,tob,birthweight,breastfeeding,hrn FROM childinfo WHERE aadhar = '$aadhar' ";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -21,15 +22,17 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
     // $sql="Select * from users1 where aadhar='$_POST[aadhar]'"
     //echo " - Name: " . $row["name"]. " " . $row["dob"]. "<br>";
-    
-    echo "Childs Full Name : "  .$row["name"];
+    echo"<b><h1 align=center><u>Healthy Kids Repository - India</u></h1></b>";
+    echo"<b><h2 align=center>Child's Information</h2 ></b>";
+    echo "<br>  ";
+    echo "<h3 align=center>Child's Full Name: "  .$row["name"] ;
     echo"<br><br>";
-    echo "Date of birth :" .$row["dob"];
+    echo " Date of birth :" .$row["dob"] ;
     echo"<br><br>";
     echo "Weight : " .$row["weight"];
-    echo"<br><br>";
+    echo" kg<br><br>";
     echo "Height : " .$row["height"];
-    echo"<br><br>";
+    echo" cm<br><br>";
     echo "Place : " .$row["place"];
     echo"<br><br>";
     echo "Gender : " .$row["gender"];
@@ -43,11 +46,11 @@ if ($result->num_rows > 0) {
     echo "Time OF Birth : " .$row["tob"];
     echo"<br><br>";
     echo "Birth Weight : " .$row["birthweight"];
-    echo"<br><br>";
+    echo" kg<br><br>";
     echo "Breastfeeding : " .$row["breastfeeding"];
     echo"<br><br>";
     echo "Hospital Registration Number : " .$row["hrn"];
-    echo"<br><br>";
+    echo"<br><br></h3>";
     echo"<br>";
   }
 } else {

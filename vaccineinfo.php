@@ -13,7 +13,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT date,opd,bcg,hb,op1,p1,ipv1,op2,p2,op3,p3,ipv2,g1,v1,je1,m,v2,je2,opb,dpt1,dpt2,tt1,tt2,a3,a4,a5,a6 FROM vaccine";
+$sql = "SELECT date,opd,bcg,hb,op1,p1,ipv1,op2,p2,op3,p3,ipv2,g1,v1,je1,m,v2,je2,opb,dpt1,dpt2,tt1,tt2,a3,a4,a5,a6 FROM vaccine WHERE ";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -21,7 +21,10 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
     
     //echo " - Name: " . $row["name"]. " " . $row["dob"]. "<br>";
-    echo"<u><b>YES = VACCINE TAKEN ELSE NO</b></u>";
+    echo"<b><h1 align=center><u>Healthy Kids Repository - India</u></h1></b>";
+    echo"<b><h2 align=center>Child's Vaccine Information</h2 ></b>";
+    echo "<br>  ";
+    echo"<h3 align=center ><b>YES = VACCINE TAKEN ELSE NO</b>";
     echo"<br>";
     echo"<br>";
     echo "Last Updated : "  .$row["date"];
@@ -100,7 +103,7 @@ if ($result->num_rows > 0) {
     echo"Doses in 16th year : ";
     echo"<br>";
     echo "TT (Second Dose) : " .$row["tt2"];
-    echo"<br><br>";
+    echo"</h3><br><br>";
     
     }
   } 

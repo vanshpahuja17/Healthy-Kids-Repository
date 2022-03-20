@@ -54,6 +54,7 @@
     .vansh2{
         width: 33vw;
         float: left;
+        height:20vh;
     }
     .vansh3{
         width: 30vw;
@@ -115,9 +116,9 @@
 <h3>Dose given within 24 hours</h3>
     
    
-    Oral Polio Dose: <input type="text" name="opd" placeholder="Yes / No" required>
+    Oral Polio Dose:<span style="padding-left:38px;"><input type="text" name="opd" placeholder="Yes / No" required>
     <br>
-    BCG:<input type="text" name="bcg" placeholder="Yes / No" required>
+    BCG:<span style="padding-left:115px;"><input type="text" name="bcg" placeholder="Yes / No" required>
     <br>
     Hippie. B. Birth dose:<input type="text" name="hb"placeholder="Yes / No" required>
     
@@ -127,17 +128,17 @@
 <h3>Doses in 1st month</h3>
         
         
-    <label>Oral Polio 1</label><input type="text" name="op1" id ="op1"placeholder="Yes / No" required>
+    <label>Oral Polio 1<span style="padding-left:70px;"></label><input type="text" name="op1" id ="op1"placeholder="Yes / No" required>
     <br>
     <label>Penta-1 (DPT + HPB)</label><input type="text" name="p1"placeholder="Yes / No"  required>
     <br>
-    <label >IPV</label><input type="text" name="ipv1" id ="ipv1"placeholder="Yes / No" required>
+    <label >IPV<span style="padding-left:130px;"></label><input type="text" name="ipv1" id ="ipv1"placeholder="Yes / No" required>
     </div>
 
 <div class="vansh2">
     <h3>Doses in 2nd month</h3>
 <br>
-Oral Polio 2:<input type="text" name="op2" id ="op2" placeholder="Yes / No" required>
+Oral Polio 2:<span style="padding-left:118px;"><input type="text" name="op2" id ="op2" placeholder="Yes / No" required>
 <br>
 Penta-2 (BPT + Hipab + Hip)<input type="text" name="p2" id ="p2" placeholder="Yes / No" required>
 </div>
@@ -145,35 +146,35 @@ Penta-2 (BPT + Hipab + Hip)<input type="text" name="p2" id ="p2" placeholder="Ye
 <div class="vansh3"></div>
 <h3>Doses in 3rd month</h3>
 <br>
-Oral Polio 3:<input type="text" name="op3" id ="op3" placeholder="Yes / No" required>
+Oral Polio 3:<span style="padding-left:40px;"><input type="text" name="op3" id ="op3" placeholder="Yes / No" required>
 <br>
 Penta-3 (DPTHB)<input type="text" name="p3" id ="p3" placeholder="Yes / No" required>
 <br>
-IPV-2<input type="text" name="ipv2" id ="ipv2" placeholder="Yes / No" required>
+IPV-2<span style="padding-left:85px;"><input type="text" name="ipv2" id ="ipv2" placeholder="Yes / No" required>
 </div>
 <br>
 <br>
 <div class="vansh4">
 <h3>Doses in 9th month</h3>
 <br>
-Gowar-1<input type="text" name="g1" id ="g1" placeholder="Yes / No" required>
+Gowar-1<span style="padding-left:5px;"><input type="text" name="g1" id ="g1" placeholder="Yes / No" required>
 <br>
 Vitamin-1<input type="text" name="v1" id ="v1" placeholder="Yes / No" required>
 <br>
-JE-1<input type="text" name="je1" id ="je1" placeholder="Yes / No" required>
+JE-1<span style="padding-left:35px;"><input type="text" name="je1" id ="je1" placeholder="Yes / No" required>
 </div>
 
 <div class="vansh5">
 <h3>Doses done between 16-24 months</h3>
-Measles<input type="text" name="m" id ="m" placeholder="Yes / No" required>
+Measles<span style="padding-left:80px;"><input type="text" name="m" id ="m" placeholder="Yes / No" required>
 <br>
-Vitamin-2<input type="text" name="v2" id ="v2" placeholder="Yes / No" required>
+Vitamin-2<span style="padding-left:75px;"><input type="text" name="v2" id ="v2" placeholder="Yes / No" required>
 <br>
-JE-2<input type="text" name="je2" id ="je2" placeholder="Yes / No" required>
+JE-2<span style="padding-left:110px;"><input type="text" name="je2" id ="je2" placeholder="Yes / No" required>
 <br>
 Oral Polio (Booster)<input type="text" name="opb" id ="opb" placeholder="Yes / No" required>
 <br>
-DPT (First Dose)<input type="text" name="dpt1" id ="dpt1" placeholder="Yes / No" required>
+DPT (First Dose)<span style="padding-left:20px;"><input type="text" name="dpt1" id ="dpt1" placeholder="Yes / No" required>
 </div>
 
 <div class="vansh6">

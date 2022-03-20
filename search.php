@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 // $sql = "SELECT aadhar,password FROM users1";
-$sql="Select * from users1 where aadhar='$_POST[aadhar]'";
+$sql="Select * FROM users1 WHERE aadhar='$_POST[aadhar]'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
