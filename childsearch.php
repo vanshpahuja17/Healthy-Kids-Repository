@@ -29,7 +29,7 @@ $result = mysqli_query($connect, $sql);
 <form action="searchinfo.php" method="POST">
     <h1>Enter child's aadhar number<h1>
     <input type="text" name="aadhar" id ="aadhar" align=center required><br>
-    <input  type =  "submit" id = "btn" value = "submit" name="submit" required>
+    <input  type =  "submit" id = "btn" value = "Search" name="submit" required>
     
 </form>
 </form>

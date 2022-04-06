@@ -66,6 +66,7 @@
           min-height: 80%;
           opacity:0.2;
       }
+      
         </style>
         
        
@@ -73,15 +74,20 @@
     </head>
 
     
-    <body style="padding-left: 400px;padding-right: 400px;">
+    <body >
     <div id="bg">
   <!-- <img src="gchild.jpeg" > -->
   
 </div>
+
     
     <div class="vansh10">
-        <h1 align=center class="vansh"><b>Healthy Kids Repository</b></h1>
+    <h1 class="vansh"><span style="padding-left:150px;"><b>Healthy Kids Repository-India</b></h1>
+    
+    </div>   
+    <img align="right" src="girl.jpg" width="600" height="350" border='10px' #555> 
         <h1 align=center>Why?</h1>
+        
         
         <h3>A healthy child's development actually begins before conception with the parents'
             health and their genetic legacy. Unfortunately, even the healthiest baby can get sick.
@@ -99,11 +105,11 @@
             <br>
             
             <h2 align=center><b>Are you a Parent?<span style="padding-left:6vw;">Are you a Doctor?</h2></b>
-            <a href="register.php"><span style="padding-left:80px;"><button align="center">Parent's Login</button></a>
+            <a href="register.php"><span style="padding-left:145px;"><button align="center">Parent's Login</button></a>
                         
-            <a href="doclog.php"><span style="padding-left:120px;"><button align="center">Doctor's Login</button></a>
+            <a href="doclog.php"><span style="padding-left:140px;"><button align="center">Doctor's Login</button></a>
 <br><br>
-            <a href="Healthypractices.html"><span style="padding-left:650px;"><button >Click to View Healthy Child Practices</button></a>
+            <a href="Healthypractices.html"><span style="padding-left:65vw;"><button>Click to View Healthy Child Practices</button></a>
            
             </div>
     </body>

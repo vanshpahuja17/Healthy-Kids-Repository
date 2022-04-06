@@ -109,7 +109,7 @@
 
   <body>
   <b><h1 align=center><u>Healthy Kids Repository - India</u></h1></b>
-  
+  <img align="right" src="injection.jpg" width="600" height="350" border='7px' #555>
     <u>
         <h2><t>Child's Vaccine Record:</h2>
       </u>
@@ -119,6 +119,7 @@
     <input type="number" min="99999999999" max="999999999999" placeholder="Enter child's aadhar no."
 						name="aadhar" value="">
 <h4>TYPE 'Yes' IF VACCINE DONE ELSE 'No'</h4>
+
 
 <p>Last Updated:<br>
 
@@ -216,6 +217,7 @@ TT (Second Dose)<input type="text" name="tt2" id ="tt2" placeholder="Yes / No">
  Vitamin A5(36 months)<input type="text" name="a5" id ="a5" placeholder="Yes / No">
  <br>
  Vitamin A6(42 months)<input type="text" name="a6" id ="a6" placeholder="Yes / No">
+ <br>
  <br>
       <button type="submit" class="btn" name="insert" />Submit</button>
     </form>
