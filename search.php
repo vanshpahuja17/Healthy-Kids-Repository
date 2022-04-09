@@ -79,7 +79,7 @@ $conn->close();
 </style>
 </head>
 <body>
-  <!-- <a href="index.php"><button align=center>Back To Home Page</button></a> -->
+  <!-- <a href="index.html"><button align=center>Back To Home Page</button></a> -->
   <div id="bg">
   <!-- <img src="child.jpeg" width=650px height=650px> -->
   <!-- <a href="doctorproject1.php"><span style="padding-left:40vw"><button align=center>Back To Main Page</button></a> -->

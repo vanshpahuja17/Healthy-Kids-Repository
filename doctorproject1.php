@@ -78,7 +78,7 @@
     <!-- <form method="POST" action="childinfo.php"></form> -->
     <button type="button" align="center" onclick="window.location.href='childsearch.php'">Child Information</button>
 <br><br>
-    <a href="index.php"><button align=center>Back To Home Page</button></a>
+    <a href="index.html"><button align=center>Back To Home Page</button></a>
     <!-- <a href="#" class="float"> -->
 
 

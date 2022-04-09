@@ -33,7 +33,7 @@ $result = mysqli_query($connect, $sql);
     
 </form>
 </form>
-<!-- <a href="index.php"><button align=center>Back To Home Page</button></a> -->
+<!-- <a href="index.html"><button align=center>Back To Home Page</button></a> -->
 
 
 

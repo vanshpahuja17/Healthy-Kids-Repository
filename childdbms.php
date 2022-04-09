@@ -114,7 +114,7 @@ if (isset($_POST['reg_child'])) {
   <br><br<br>
   <h1 align='center'> Congratulations! Your details have been successfully registered</h1>
 
-<br><a href="index.php"><button>Back To Home Page</button></a>
+<br><a href="index.html"><button>Back To Home Page</button></a>
 </body>
 </html>
 
