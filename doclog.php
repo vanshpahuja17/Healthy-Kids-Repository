@@ -16,6 +16,7 @@
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   
+  
 }
 
 .login-box {
@@ -71,13 +72,24 @@
 	cursor: pointer;
 	margin: 12px 0;
 }
+h1{
+	color: #191970;
+	font-size: 35px;
+	/* background: none  */
+}
 
     </style>
 </head>
 <body  border=7px solid indigo>
-<form method="post" onsubmit = "return validation()" action="doctorlog.php">
-<div class="login-box">
-    <h2 align="center"> Welcome to Doctor's section</h2>
+	<div >
+		<img src="ves_logo.png" height="100px" width=> 
+	</div>
+	<h1  align="center"><b>Healthy Kids Repository-India</b></h1>
+	
+	
+	<form method="post" onsubmit = "return validation()" action="doctorlog.php">
+		<div class="login-box">
+		<br>	 <h2 align="center"> Welcome to Doctor's section</h2>
     <!-- <img  src="https://media.istockphoto.com/vectors/medical-team-vector-id1214423422?k=20&m=1214423422&s=612x612&w=0&h=WmzB4WiNJ_II5I6uQIGGaYMh45gP8qikNnIyMpqPPAA="  > -->
    
 
