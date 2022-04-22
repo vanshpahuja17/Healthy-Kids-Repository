@@ -16,7 +16,7 @@ $result = mysqli_query($connect, $sql);
     <title>Child Search</title>
     <style>
                 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+   background-image: linear-gradient(120deg, #ffeeee 50%, #ffe3e3 50%);
   color: purple;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
