@@ -73,7 +73,7 @@
 	margin: 12px 0;
 }
 h1{
-	color: #191970;
+	/* color: #191970; */
 	font-size: 35px;
 	/* background: none  */
 }
@@ -81,12 +81,15 @@ h1{
     </style>
 </head>
 <body  border=7px solid indigo>
-	<div >
+	<!-- <div >
 		<img src="ves_logo.png" height="100px" width=> 
 	</div>
-	<h1  align="center"><b>Healthy Kids Repository-India</b></h1>
+	<h1  align="center"><b>Healthy Kids Repository-India</b></h1> -->
 	
-	
+	<img align="left" src="ves_logo.png" height="100px"> 
+    
+    <div class="vansh10">
+    <h1 class="vansh" align="center"><b>Healthy Kids Repository-India</b></h1>
 	<form method="post" onsubmit = "return validation()" action="doctorlog.php">
 		<div class="login-box">
 		<br>	 <h2 align="center"> Welcome to Doctor's section</h2>

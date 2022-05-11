@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="jquery.min.js"></script>
+<script src="fabric.js"></script>
+</head>
+<body>
+<canvas id="c" width="800" height="600"></canvas>
+<script>
+var canvas = new fabric.Canvas('c');
+
+fabric.Image.fromURL('girl.jpg', function(img){
+	img.setWidth(200);
+	img.setHeight(200);
+	canvas.add(img);
+});
+
+</script>
+
+</body>
+</html>

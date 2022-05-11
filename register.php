@@ -103,7 +103,12 @@ body {
         </style>
 </head>  
 <body >
-<div class="login-box">
+  
+<img align="left" src="ves_logo.png" height="100px"> 
+    
+    <div class="vansh10">
+    <h1 class="vansh" align="center"><b>Healthy Kids Repository-India</b></h1>
+<div class="login-box"><br><br><br><br><br>
 <h2 align="center"> Welcome to parents section</h2><br>
   <div class="header">
     <div class="vansh">

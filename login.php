@@ -102,6 +102,11 @@ body {
         </style>
 </head>  
 <body>  
+    
+<img align="left" src="ves_logo.png" height="100px"> 
+    
+    <div class="vansh10">
+    <h1 class="vansh" align="center"><b>Healthy Kids Repository-India</b></h1>
 <form method="post" name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
 		<div class="login-box">
 			<h1>Login</h1>

@@ -69,7 +69,6 @@
     </style>
 </head>
 <body>
-<h1 class="vansh"><span style="padding-left:40px;"><b>Healthy Kids Repository-India</b></h1>
 <br><br><br><br><br><br>
 <button type="button" align="center" onclick="window.location.href='you1.php'">Enter Vaccine Details</button>
 <br><br><br>

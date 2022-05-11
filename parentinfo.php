@@ -69,13 +69,14 @@
  
 
   <body >
+    
     <u>
   <div class="left">
-  <h2><t>Child's Information:</h2>
+  <h1><t>Child's Information:</h1>
       </u>
     </br> 
 
-    <form method="post" action="childdbms.php">
+    <form method="post" action="childdbms.php"><h3>
       Enter Aadhar Card Number: <br>
       <input type="text" name="aadhar" placeholder="XXXX-XXXX-XXXX" required>
 <br>
@@ -102,11 +103,11 @@
       </br>
   </div>
        <div class="right">
-       <u><h2>Maternal Details:</h2>
+       <u><h1>Maternal Details:</h1>
       </u>
     </br>
     
-      Date of Hospitalization(D.O.H):<br>
+      <h3>Date of Hospitalization(D.O.H):<br>
       <input type="date" name="doh">
       </br>
       Date of Release :<br>
